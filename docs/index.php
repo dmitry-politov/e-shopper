@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 session_start();
 // Подключение файлов системы
 
-define('ROOT', dirname(__FILE__));
+define('ROOT', dirname(__FILE__)); //dffffffffffffffffffff
 require_once(ROOT . '/components/Autoload.php');
 
 // Вызов Router
