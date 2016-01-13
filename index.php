@@ -12,5 +12,6 @@ define('ROOT', dirname(__FILE__));
 require_once(ROOT . '/components/Autoload.php');
 
 // Вызов Router !!!!!!!!!!!!!!!!!
+// Cделал коммит 13.01.2016!!!
 $router = new Router();
 $router->run();
